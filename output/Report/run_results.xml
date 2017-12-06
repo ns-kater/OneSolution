@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (8): &amp;quot;	ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[showMessageInJenkinsConsole]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[showMessageInJenkinsConsole]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showMessageInJenkinsConsole "TC001", "Check If Google site is up and running"]]></Scripts>
+          <LineNo><![CDATA[6]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <StartTime>2017-11-30 13:39:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>2e227b23560949dfa2b10137ec930b6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2017-11-30 13:39:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Google ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Google ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>3feba23ec13245489b3385be4e0988dc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (15): &amp;quot;		ReportUtil.UpdateTestCaseResult &amp;quot;PASS&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[showTestCaseStatusInJenkinsConsole]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseResult "PASS"]]></Scripts>
+          <LineNo><![CDATA[15]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showTestCaseStatusInJenkinsConsole(status)]]></Scripts>
+          <LineNo><![CDATA[12]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (18): &amp;quot;		ReportUtil.UpdateTestCaseResult &amp;quot;FAIL&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[showTestCaseStatusInJenkinsConsole]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseResult "FAIL"]]></Scripts>
+          <LineNo><![CDATA[18]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showTestCaseStatusInJenkinsConsole(status)]]></Scripts>
+          <LineNo><![CDATA[12]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (8): &amp;quot;	ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:44</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[FuncLibExecutableUnitName]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[showMessageInJenkinsConsole]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showMessageInJenkinsConsole "TC002", "Check If Yahoo site is up and running"]]></Scripts>
+          <LineNo><![CDATA[15]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <StartTime>2017-11-30 13:39:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>2e227b23560949dfa2b10137ec930b6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Suche ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2017-11-30 13:39:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ Suche ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>3feba23ec13245489b3385be4e0988dc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (15): &amp;quot;		ReportUtil.UpdateTestCaseResult &amp;quot;PASS&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:58</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[showTestCaseStatusInJenkinsConsole]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseResult "PASS"]]></Scripts>
+          <LineNo><![CDATA[15]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showTestCaseStatusInJenkinsConsole(status)]]></Scripts>
+          <LineNo><![CDATA[21]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\UFT_Demo\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (18): &amp;quot;		ReportUtil.UpdateTestCaseResult &amp;quot;FAIL&amp;quot;&amp;quot;.</Description>
+    <StartTime>2017-11-30 13:39:58</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\UFT_Demo\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[showTestCaseStatusInJenkinsConsole]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseResult "FAIL"]]></Scripts>
+          <LineNo><![CDATA[18]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showTestCaseStatusInJenkinsConsole(status)]]></Scripts>
+          <LineNo><![CDATA[21]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>9872046517434334986a4b566116bd67</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2017-11-30 13:39:38</StartTime>
+    <Duration>21</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>98effbfdbdda425993e0c808c7b0121c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-11-30 13:39:38</StartTime>
+    <Duration>21</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>5473125dff7c4b4faf8f7d6179057e32</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>tagTest</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2017-11-30 13:39:37</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="env" value="qa" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>006768d1d7c74e688558a084a839a361</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+01:00:00</Timezone>
+      <Locale>svenska (Sverige)</Locale>
+      <User>IKEA\NSKAT1</User>
+      <CpuInfo>Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8080</TotalMemory>
+      <HostName>ikea.com\IRSSEMAL-NB0099</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>output</ResultName>
+    <RunStartTime>2017-11-30 13:39:37</RunStartTime>
+    <Timezone>+01:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
